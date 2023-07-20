@@ -1,0 +1,216 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  header {
+    padding: 10px 0;
+  }
+
+
+nav {
+    text-align: right;
+  }
+  
+  nav a {
+    display: inline-block;
+    margin: 0 20px;
+    text-decoration: none;
+    color: #a81b1b;
+    font-weight: bold;
+  }
+  
+  
+  .hero {
+    background: url("images/i2.jpg") no-repeat center center/cover;
+    height: 400px;
+    display: flex;
+   
+    align-items: center;
+    justify-content: center;
+  }
+  
+.hero-content {
+    text-align: center;
+    color: #000000;
+  }
+  
+  .hero h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    display: inline-block;
+    background: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.3s ease;
+    margin-top: 50px; 
+  }
+  
+  .btn:hover {
+    background: #0056b3;
+  }
+  .features {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 0;
+  }
+  
+  .feature {
+    text-align: center;
+  }
+  
+  .feature i {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  
+  .pricing {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 0;
+  }
+  
+  .pricing-card {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .pricing-card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .price {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px 0;
+    border-top: 1px solid #ddd;
+  }
+
+.about-us {
+    background-color: #f9f9f9;
+    padding: 60px 0;
+    text-align: left;
+  }
+  
+  .about-us h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  .about-us p {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.6;
+    max-width: 800px;
+    
+    text-align: left;
+  }
+  
+ 
+  .about-us-content {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 40px;
+  }
+  
+ 
+
+.about-us {
+    background-color: #f9f9f9;
+    padding: 60px 20px;
+    overflow: hidden; 
+  }
+  
+  .about-us-content {
+    overflow: hidden; 
+  }
+  
+  .about-us img {
+    float: right;
+    width: 40%; 
+    margin-right: 20px; 
+    border-radius: 10px; 
+  }
+  
+  .about-us h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  .about-us p {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.6;
+    max-width: 500px;
+  }
+ 
+  
+  .services {
+    text-align: center;
+    padding: 40px 0;
+  }
+  
+  .services h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .service {
+    display: inline-block;
+    text-align: left;
+    width: 30%;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .service i {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  
+  .service h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .service p {
+    font-size: 16px;
+  }
+  
+  @media (max-width: 768px) {
+    .service {
+      width: 90%;
+    }
+  }
+    
